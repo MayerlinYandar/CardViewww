@@ -25,7 +25,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Mayerlin Yandar"
+                android:text="Chester Antonio"
                 android:textSize="25sp"
                 android:textStyle="bold"
                 android:textColor="@android:color/white"/>
@@ -40,7 +40,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Hace:"
+                    android:text="Raza:"
                     android:textSize="15sp"
                     android:textStyle="bold"
                     android:textColor="@android:color/white"/>
@@ -48,7 +48,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="4 dias"
+                    android:text="Sharpei"
                     android:textSize="15sp"
                     android:textStyle="bold"
                     android:textColor="@android:color/white"
@@ -64,7 +64,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="10 Me gusta"
+                    android:text="9 Años"
                     android:textSize="15sp"
                     android:textStyle="bold"
                     android:textColor="@android:color/white"

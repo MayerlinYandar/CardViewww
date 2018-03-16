@@ -8,20 +8,224 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
+            <include layout="@layout/cardviewpicture" />
 
-            <include layout="@layout/cardviewpicture" />
-            <include layout="@layout/cardviewpicture" />
-            <include layout="@layout/cardviewpicture" />
-            <include layout="@layout/cardviewpicture" />
-            <include layout="@layout/cardviewpicture" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/lu"
+                        android:text="Lucas"
+                        android:textSize="40sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Shih Tzu"
+                        android:textColor="@color/raza"
+                        android:textSize="20sp"
+                        android:layout_below="@id/lu"/>
+
+                </RelativeLayout>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/perro1"/>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ro"
+                        android:text="Rocco"
+                        android:textSize="40sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Chow Chow"
+                        android:textColor="@color/raza"
+                        android:textSize="20sp"
+                        android:layout_below="@id/ro"/>
+
+                </RelativeLayout>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/perro2"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/z"
+                        android:text="Zeus"
+                        android:textSize="40sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mastín Tibetano"
+                        android:textColor="@color/raza"
+                        android:textSize="20sp"
+                        android:layout_below="@id/z"/>
+
+                </RelativeLayout>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/perro3"/>
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ap"
+                        android:text="Apolo"
+                        android:textSize="40sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Akita"
+                        android:textColor="@color/raza"
+                        android:textSize="20sp"
+                        android:layout_below="@id/ap"/>
+
+                </RelativeLayout>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/perro4"/>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dr"
+                        android:text="Drako"
+                        android:textSize="40sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Husky Siberiano"
+                        android:textColor="@color/raza"
+                        android:textSize="20sp"
+                        android:layout_below="@id/dr"/>
+
+                </RelativeLayout>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/perro5"/>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/br"
+                        android:text="Bruno"
+                        android:textSize="40sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pastor Inglés"
+                        android:textColor="@color/raza"
+                        android:textSize="20sp"
+                        android:layout_below="@id/br"/>
+
+                </RelativeLayout>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/perro6"/>
+
+            </LinearLayout>
+
+
 
         </LinearLayout>
+
+
+
     </ScrollView>
 
 </android.support.constraint.ConstraintLayout>
